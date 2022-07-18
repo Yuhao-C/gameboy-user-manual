@@ -36,7 +36,8 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/Yuhao-C/gameboy-user-manual/",
+          editUrl:
+            "https://github.com/Yuhao-C/gameboy-user-manual/tree/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
