@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgameboy_user_manual=self.webpackChunkgameboy_user_manual||[]).push([[860],{5745:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
