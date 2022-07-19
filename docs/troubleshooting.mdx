@@ -1,0 +1,39 @@
+---
+sidebar_position: 8
+---
+
+# Troubleshooting
+
+import List from "../src/components/List";
+const solution1 = [
+  "Turn the power OFF. Wait a few moments, then turn the power ON.",
+  "Turn the power OFF. Remove the Game Pak and insert it again, then turn the power ON.",
+  "Check if the batteries are placed correctly.",
+  "If you are using a Game Link cable, turn the power OFF, and check the connection.",
+  "If you are using a Game Link cable, check that both Game Paks are the same.",
+  "Replace the batteries with the new batteries.",
+  "If you are using the AC Adapter, make sure you insert the plug fully into the hole (External Power Supply Jack).",
+];
+const solution2 = ["Replace the batteries with the new batteries."];
+const solution3 = [
+  "Turn OFF the power, remove the Game Pak and insert it again. Make sure you insert it fully into the Game Pak slot. Turn the power ON.",
+];
+const solution4 = [
+  "Adjust the volume.",
+  "Make sure you unplug the headphones into the headphone jack.",
+  "Some games may not have sound during their game plays.",
+];
+const solution5 = [
+  "Make sure Game Paks include the infrared communication feature and that both Game Paks are the same game.",
+  "Make sure that Game Boy Color devices are kept at the proper distance and aligned correctly.",
+  "Make sure direct bright sunlight is not disturbing the connection.",
+  "Make sure that there is no blocking between the two devices.",
+];
+
+| <div style={{textAlign:"center"}}>Problem</div>                | <div style={{textAlign:"center"}}>Solution</div> |
+| :------------------------------------------------------------- | :----------------------------------------------- |
+| The screen does not show anything even though the power is ON. | <List ordered={false} items={solution1}/>        |
+| The screen appears faint.                                      | <List ordered={false} items={solution2}/>        |
+| Horizontal lines appear when the power is ON.                  | <List ordered={false} items={solution3}/>        |
+| You do not hear any sound from the speaker during game play.   | <List ordered={false} items={solution4}/>        |
+| The communication port is not working.                         | <List ordered={false} items={solution5}/>        |

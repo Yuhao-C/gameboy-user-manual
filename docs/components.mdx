@@ -1,0 +1,32 @@
+---
+sidebar_position: 2
+---
+
+# Components
+
+import List from "../src/components/List";
+import ClickArea from "../src/components/ClickArea";
+import Image from "../src/components/Image";
+const descriptions = [
+  "Infrared Communication Port (COMM) - Communicate with another Game Boy Color. (Available in some games only. See Playing Two-Player Games with the COMM Port.)",
+  "Power Indicator (POWER) - Lights when the device is on. This will begin to dim as the battery runs low.",
+  "Color LCD Screen - View your game play on a high quality color screen.",
+  "Operation Buttons - Control your game play. See game instructions for button functions.",
+  "External Power Supply Jack - Connect to Game Boy pocket AC Adapter to play without batteries.",
+  "Game Pak Slot - Insert a Game Pak into the slot to play the game. See Playing Games on the Game Boy Color.",
+  "Wrist Strap Attachment - Attach a wrist strap to firmly hold your Game Boy Color.",
+  "Power Switch (ON/OFF) - Slide the switch towards the top to turn on power. Always insert a Game Pak before turning on the power.",
+  "External Extension Connector (EXT) - Connection to another Game Boy with a Game Link Cable. See Playing Two-Player Games with the Game Link Cable.",
+  "Volume Dial (VOL) - Rotate down to increase the volume. Rotate up to decrease the volume.",
+  "Battery Cover - Remove cover to add or replace batteries.",
+  "Speaker - Plays sound when headphones are not plugged in.",
+  "Headphone Jack - Connect to stereo headphones for better audio experience.",
+];
+
+<Image src="/img/components.png">
+  <ClickArea left={0} top={0} width={100} height={100} jumpId="comp-0" />
+</Image>
+
+## Learn About the Components
+
+<List ordered items={descriptions} idPrefix="comp" />
