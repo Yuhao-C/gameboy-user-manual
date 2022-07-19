@@ -18,6 +18,7 @@ Thank you for purchasing the Game Boy Color! The Game Boy Color features:
 
 ## What to Do Next?
 
+- [Change Screen Color](./changing-screen-color)
 - [Play Two-Player Games with the Game Link Cable](./two-player-mode/game-link)
 - [Play Two-Player Games with the COMM Port](./two-player-mode/communication-port)
 
